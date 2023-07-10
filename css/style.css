@@ -1,0 +1,275 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+h2{
+  color: #D70040;
+  font-size: 55px;
+}
+
+#header{
+  margin-bottom: -20px;
+  margin-bottom: -20px;
+}
+
+header img{
+  margin: -20px 0px -20px -19px;
+}
+
+#header input{
+  border: 1px solid #D70040;
+  margin-top: 5px;
+}
+
+#header ul{
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, purple, #D70040, blue);
+  /* background: url(../images/cake-image7.jpg); */
+  /* background-color: rgb(111, 89, 111); */
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+.hero {
+  background-color: #e9a5b9;
+  /* width: 100%; */
+  height: auto;
+  margin-top: -30px;
+  /* justify-content: space-between; */
+}
+
+/* .hero h1{
+  margin-top: -10px;
+} */
+
+.hero img{
+  margin-top: -200px; 
+  height: auto;
+  max-height: 704px;
+} 
+
+/* .hero .align-hero{
+  margin: 0px auto;
+} */
+
+.hero .btn-light{
+  background-color: white !important;
+}
+
+.hero .btn{
+  margin-top: 30px;
+  font-weight: 100;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+.header{
+  margin-top: -200px;
+  margin-bottom: 20px;
+}
+
+#header, #navigation{
+  width: 100%;
+}
+
+.navigation{
+  text-transform: uppercase;
+  
+}
+
+.navigation a{
+  color: white !important;
+  font-size: 21px;
+  text-align: right;
+}
+
+.navigation a:hover{
+  color: black !important;
+}
+
+.navigation #hamburger-btn{
+  cursor: pointer;
+  display: none;
+}
+
+.album p{
+  font-size: 20px;
+  width: 100%;
+  padding: 15px;
+  background-color: #D70040;
+  margin-top: 238px;
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+  color: black;
+}
+
+.features{
+  background-color: #e9a5b9;
+}
+
+.pricing h2{
+  padding-top: 40px;
+  text-align: left;
+}
+
+.pricing-btn{
+  background-color: #D70040;
+}
+
+.pricing-btn:hover{
+  background-color: #e9a5b9;
+}
+
+.pricing-single{
+  border: 1px solid #D70040;
+}
+
+.pricing-single:hover{
+  background-color: #D70040;
+}
+
+.border-primary{
+  border: 1px solid black !important;
+}
+
+.testimonial{
+  background-color: #e9a5b9;
+}
+
+.testimonial img{
+  width: 100;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+.testimonial .lead{
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.testimonial .address{
+  margin-top: -8px;
+}
+
+.testimonial .btn{
+  font-size: 23px;
+  background-color: #D70040;
+}
+
+.testimonial .btn:hover{
+  background-color: white;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 600px;
+  border: none;
+
+}
+
+/* #pricing{
+  overflow-x: hidden;
+} */
+
+.footer{
+  /* overflow-x: hidden; */
+  margin-top: -50px;
+  background-color: black;
+  color: white;
+  margin-bottom: -40px;
+}
+
+.footer .col{
+  margin-top: 20px;
+}
+
+.footer a{
+  color: white !important ;
+}
+
+.footer p{
+  color: white !important ;
+}
+
+@media screen and (max-width: 991px) { 
+  /* .hero{
+    height: auto;
+  } */
+  .hero img{
+    display: none;
+  } 
+
+  /* .hero .align-hero{
+    margin: 0px auto;
+    width: 100vh;
+  } */
+
+  /* .hero .btn{
+    width: 200px;
+  } */
+
+  /* .navigation .container{
+    margin-top: 10px;
+    margin-left: -10px;
+    width: 300px;
+    height: 60vh;
+    border: none;
+    background: linear-gradient(300deg, purple, #D70040, blue); */
+    /* background: url(../images/cake-image7.jpg); */
+    /* background-color: rgb(111, 89, 111); */
+    /* background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    transition: left 0.3s ease;
+  }
+
+  .navigation #menu-toggler:checked~.container{
+    left: 0;
+  } */
+
+  /* .navigation #hamburger-btn{
+    display: block;
+  }
+
+  .container .nav{
+    display: block;
+  }
+} */
+}
+
+/* @media screen and (min-width: 360px) and (max-width: 560px) {
+  .hero{
+    height: 319px;
+  }
+} */
